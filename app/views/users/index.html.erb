@@ -1,0 +1,9 @@
+<h1>User Index</h1>
+
+<% @users.each do |user| %>
+	<%= user.email %>
+	<%= user.name %>
+<% end %>
+
+<%= link_to 'new user', new_user_path %>
+<%= link_to 'next', users_url(page: params[:page].to_i + 1) %>
