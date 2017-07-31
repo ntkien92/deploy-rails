@@ -51,7 +51,7 @@
 # ------------------------------------
 server "0.0.0.0",
   user: "root",
-  roles: %w{web app},
+  roles: %w{web app db},
   port: 32773,
   ssh_options: {
     forward_agent: false,
