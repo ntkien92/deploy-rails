@@ -3,8 +3,8 @@ working_directory root
 
 pid "#{root}/tmp/pids/unicorn.pid"
 
-stderr_path "#{root}/log/unicorn.log"
-stdout_path "#{root}/log/unicorn.log"
+stderr_path "#{root}/log/unicorn.stderror.log"
+stdout_path "#{root}/log/unicorn.stdout.log"
 
 worker_processes 5
 timeout 30
