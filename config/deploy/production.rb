@@ -52,7 +52,7 @@
 server "0.0.0.0",
   user: "root",
   roles: %w{web app},
-  port: 32769,
+  port: 32773,
   ssh_options: {
     forward_agent: false,
     auth_methods: %w(password),
