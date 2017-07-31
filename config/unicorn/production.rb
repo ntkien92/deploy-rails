@@ -1,4 +1,4 @@
-root = "/home/book_shelf/current"
+root = "/root/book_shelf/current"
 working_directory root
 
 pid "#{root}/tmp/pids/unicorn.pid"
